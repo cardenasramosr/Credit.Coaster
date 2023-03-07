@@ -1,4 +1,5 @@
 
+from controllers.user_controller import UserController
 from schemas.account import Account
 from schemas.user import User
 
