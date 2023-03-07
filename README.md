@@ -1,11 +1,64 @@
-# Credit_App
+# Movie Project
 
-Ana Valeria Araiza Peralta
+This is a basic project to learn how to use `peewee` and create some basic unit tests in python.
 
-Abril Galan Mendoza
 
-Ana Paula Juarez Redondo
+Setup
+----------
 
-Ricardo Cardenas Ramos 
+Create a virtual environment:
 
-The aim of this project is to model how a credit card works by creating a program system that simulates the functionality of a real-world credit card. Our goal is to identify the key features of a credit card, such as making purchases, making payments, and implementing these features in the program using object-oriented programming principles.
+```shell
+   python3 -m venv venv
+```
+
+
+#### Activate virtual environment
+
+MacOS and Linux:
+```shell
+  source venv/bin/activate
+```
+
+Windows cmd:
+```shell
+  venv\Scripts\activate.bat
+```
+
+Windows Powershell:
+```shell
+  venv\Scripts\Activate.ps1
+```
+
+Install and update using `pip`:
+```shell
+  pip install -r requirements.txt
+```
+
+
+Running Locally
+----------------
+
+```shell
+  python main.py
+```
+
+Testing
+--------
+
+Run tests with `pytest`:
+
+```shell
+  pytest -v
+```
+
+Run tests with `coverage`:
+
+```shell
+  coverage run -m pytest
+```
+
+Coverage report:
+```shell
+  coverage report
+```
